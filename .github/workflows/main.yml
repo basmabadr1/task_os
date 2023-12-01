@@ -22,5 +22,3 @@ jobs:
       
       - name: "push to docker hub"
         run: docker push ${{ secrets.DOCKER_USERNAME }}/tasktwo
-
-
