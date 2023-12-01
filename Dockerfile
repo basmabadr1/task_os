@@ -1,5 +1,5 @@
 FROM openjdk
 WORKDIR /application
-COPY basma.java .
-RUN javac basma.java
-CMD  java basma
+COPY Basma.java .
+RUN javac Basma.java
+CMD  java Basma
